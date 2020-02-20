@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>profile</title>
+</head>
+<body>
+    <div id="div"></div>
+    <a href="/index" id="index"><h1>Profile</h1></a>
+	    <p><%= email %></p>
+	    <p><%= fname %></p>
+	    <p><%= lname %></p>
+	    <p><%= phone %></p>
+	    <p><%= ccard %></p>
+    <form action="/editProfile" method="get">
+		<input type="submit" value="Edit">
+	</form>
+	<form action="/delete" method="get">
+		<input type="submit" value="Delete">
+	</form>
+</body>
+</html>

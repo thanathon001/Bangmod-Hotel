@@ -1,0 +1,13 @@
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./imagesbg.PNG);
+    background-size: cover;
+    background-position: center;
+}
+
+.booking-form-box
+    {
+        max-width: 500;
+        border: 1px solid #ced4da;
+        margin: 10% auto 0;
+    }

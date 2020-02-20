@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>LuxuryHotel a Hotel Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="css/datedropper.css" rel="stylesheet"/>
+
+    <script src="jquery-1.10.2.min.js"></script>
+    <script src="datedropper.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Rubik:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <script src="http://trentrichardson.com/examples/timepicker/js/jquery-1.7.1.min.js">     </script>
+    <script src="http://trentrichardson.com/examples/timepicker/js/jquery-ui-1.8.16.custom.min.js"></script>
+    <script src="http://trentrichardson.com/examples/timepicker/js/jquery-ui-sliderAccess.js"></script>
+    <script src="http://trentrichardson.com/examples/timepicker/js/jquery-ui-timepicker-addon.js"></script>
+    <link type="text/css" href="http://trentrichardson.com/examples/timepicker/css/ui-lightness/jquery-ui-1.8.16.custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- ... -->
+  <script type="text/javascript" src="/bower_components/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="/bower_components/moment/min/moment.min.js"></script>
+  <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+
+
+
+
+
+<link href="plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css">
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <header role="banner">
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="/index">ROYAL BANGMOD HOTEL</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse navbar-light" id="navbarsExample05">
+            <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="/index">HOME</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/index">BOOKING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Meeting">MEETING & EVENT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Offer">OFFERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/RoomService">ROOM SERVICE</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">CONTACT</a>
+              </li>
+
+               <li class="nav-item cta">
+                <a class="nav-link" href="/login"><span>SIGN IN</span></a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- END header -->
+
+    <section class="site-hero overlay" data-stellar-background-ratio="0.5" style="background-image: url(images/big_image_1.jpg);">
+
+
+
+
+
+      <div class="container position:absolute">
+
+
+        <div class="row align-items-center site-hero-inner justify-content-center">
+
+	<div class="home">
+		<div class="background_image" style="background-image:url(images/booking.jpg)"></div>
+		<div class="home_container">
+			<div class="container">
+        <div class = "boxtran"></div>
+				<div class="row">
+					<div class="col">
+						<div class="home_content text-center">
+						<div class="transbox">
+              <div class="booking_form_container">
+								<form action="searchact" method="post" class="booking_form" id="booking_form">
+									<div class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
+										<div class="booking_input_container d-flex flex-row align-items-start justify-content-start flex-wrap">
+											<div><input data-dd-theme="leaf" data-large-mode="true" data-large-default="true" data-lock="from" data-translate-mode="true" type="text" class="datepicker booking_input booking_input_a booking_in" name="FCheckIn"placeholder="Check in" required="required"></div>
+											<div><input data-dd-theme="leaf" data-large-mode="true" data-large-default="true" data-lock="from" data-translate-mode="true" type="text" class="datepicker booking_input booking_input_a booking_out" name="FCheckOut"placeholder="Check out" required="required"></div>
+                      <script>
+                          $('input').dateDropper();
+                      </script>
+										</div>
+                    <div><input class="booking_button trans_200" type="submit" value = "Searching"></input></div>
+									</div>
+								</form>
+              </div>
+            </div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+          <div class="col-xl-10 text-center position: relative;
+          bottom: 30px;">
+            <div class="mb-1 element-animate">
+              <h1>Royal Bangmod Hotel</h1>
+              <p>LET'S YOU LIFE RELAXED</p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="site-section bg-light">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-12 heading-wrap text-center">
+            <h4 class="sub-heading">Our Gift</h4>
+              <h2 class="heading">Special Offer</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-15">
+            <div class="media d-block room mb-0 ">
+              <figure>
+                <img src="images/bg4.PNG" alt="Generic placeholder image" class="img-fluid">
+                <div class="overlap-text">
+                  <span>
+                    Featured Option
+                  </span>
+                </div>
+              </figure>
+              <div class="media-body">
+                <h3 class="mt-0"><a href="#">Free Breakfast</a></h3>
+                <p>Nice, healthy and clean for by applying this code. </p>
+                <p><a href="#" class="btn btn-primary btn-sm">Book Now From $20</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 room-thumbnail-absolute">
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="section-cover" data-stellar-background-ratio="0.5" style="background-image: url(images/2.PNG);">
+      <div class="container">
+        <div class="row justify-content-center align-items-center intro">
+          <div class="col-md-9 text-center element-animate">
+            <h2>Relax and Enjoy your Holiday more than ever!!</h2>
+            <p class="lead mb-5">By participate our special and exciting events. For more Infornation</p>
+            <p><a href="/Meeting" class="btn btn-primary">Click Here</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+
+    <% if (error2) { %>
+        <script type="text/javascript">
+          alert('Check-In must before CheckOut');
+        </script>
+    <% } %>
+    <% if (error) { %>
+        <script type="text/javascript">
+          alert('Please enter check-in and check-out date!');
+        </script>
+    <% } %>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4">
+            <h3>Phone Support</h3>
+            <p>Call us now.</p>
+            <p class="lead"><a href="tel://">+66 623 292 526</a></p>
+          </div>
+          <div class="col-md-4">
+            <h3>Connect With Us</h3>
+            <p>We are socialized. Follow us</p>
+            <p>
+              <a href="#" class="pl-0 p-3"><span class="fa fa-facebook"></span></a>
+              <a href="#" class="p-3"><span class="fa fa-twitter"></span></a>
+              <a href="#" class="p-3"><span class="fa fa-instagram"></span></a>
+              <a href="#" class="p-3"><span class="fa fa-vimeo"></span></a>
+              <a href="#" class="p-3"><span class="fa fa-youtube-play"></span></a>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Connect With Us</h3>
+            <p>Hello world team.</p>
+            <form action="#" class="subscribe">
+              <div class="form-group">
+                <button type="submit"><span class="ion-ios-arrow-thin-right"></span></button>
+                <input type="email" class="form-control" placeholder="Enter email">
+              </div>
+
+            </form>
+          </div>
+        </div>
+    </footer>
+    <!-- END footer -->
+    <!-- END footer -->
+
+    <!-- loader -->
+    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/jquery-datepicker/jquery-ui.js"></script>
+<script src="js/booking.js"></script>
+  </body>
+</html>
